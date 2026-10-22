@@ -22,11 +22,11 @@ Author: Sabriya Sowers
 
 Date: 2026 October
 
-This is my first project in the Continuous Intelligence course.
+This is my first project in the Continuous Intelligence course. As I continue learning Python, I would like to explore how it can support data quality monitoring. My goal is to eventually add basic checks for missing values, duplicate records, and invalid data using a sample dataset.
 
-The goal is to establish a working Python environment,
-explore a professional project structure, run a Python
-pipeline, and verify that the project works.
+I would also like to use Python logging to document the results and identify potential data quality issues. This would help me connect what I'm learning in this course to real-world data governance practices.
+
+**Status:** Planned — not yet implemented.
 
 The project is configured in
 [pyproject.toml](pyproject.toml).
