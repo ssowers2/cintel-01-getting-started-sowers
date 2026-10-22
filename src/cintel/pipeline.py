@@ -1,7 +1,7 @@
 """pipeline.py - Project script (example).
 
-Author: Your Name Here
-Date: 2026-mm-dd
+Author: Sabriya Sowers
+Date: 2026-10
 
 Purpose:
   Confirm your project environment is set up correctly.
@@ -125,7 +125,7 @@ def main() -> None:
     log_path(LOG, "CINTEL_DIR", CINTEL_DIR)
 
     # Log a custom message (change this to something meaningful for your project)
-    LOG.info("Hello World from Dr. Case!")
+    LOG.info("Hello World from Sabriya Sowers!")
 
     LOG.info("========================")
     LOG.info("Pipeline executed successfully!")

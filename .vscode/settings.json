@@ -49,5 +49,6 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:system"
 }
