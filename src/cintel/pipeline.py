@@ -39,6 +39,7 @@ SKILLS:
 # === DECLARE IMPORTS ===
 
 # First from the Python standard library (no installation needed)
+import csv
 import logging
 from pathlib import Path
 
@@ -127,6 +128,16 @@ def main() -> None:
     # Log a custom message (change this to something meaningful for your project)
     LOG.info("Hello World from Sabriya Sowers!")
     LOG.info("Data quality monitoring will be explored in future projects.")
+
+    # Check for missing values in fictional department records
+    csv_path = Path("data/department_records.csv")
+
+    with csv_path.open(newline="", encoding="utf-8") as file:
+        records = list(csv.DictReader(file))
+
+    missing_count = sum(value == "" for record in records for value in record.values())
+
+    LOG.info(f"Missing values found: {missing_count}")
 
     LOG.info("========================")
     LOG.info("Pipeline executed successfully!")

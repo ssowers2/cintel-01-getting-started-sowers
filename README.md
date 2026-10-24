@@ -192,3 +192,15 @@ testing, documentation, and code quality.
 - [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
 - [Citation](CITATION.cff)
 - [License](LICENSE)
+
+## Data Quality Experiment
+
+I expanded my Python project to explore how Python can help identify missing values in healthcare department records.
+
+I created a fictional dataset containing five records with three fields: RecordID, Department, and Status. The data is stored in `data/department_records.csv`.
+
+Using Python's built-in CSV library, I updated the pipeline to read the file and count missing values. The pipeline successfully identified three missing values and displayed the results through logging.
+
+**Data Source:** Fictional data created specifically for this project. No real patient or organizational information was used.
+
+This experiment connects to my interest in using Python for data quality monitoring and data governance.

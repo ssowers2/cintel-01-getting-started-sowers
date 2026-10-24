@@ -1,0 +1,6 @@
+RecordID,Department,Status
+1001,Cardiology,Active
+1002,,Active
+1003,Neurology,
+1004,,Inactive
+1005,Oncology,Active
