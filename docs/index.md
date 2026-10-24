@@ -88,3 +88,5 @@ My goal was to identify missing values in the department records. I used `csv.Di
 I chose a CSV file instead of keeping the sample data directly in the Python code because I wanted to practice working with a separate dataset.
 
 The pipeline identified three missing values: two missing department names and one missing status. This matched my expected results, and the pipeline completed successfully.
+
+**Verification:** I ran the pipeline a second time and received the same result of 3 missing values. I also manually reviewed the CSV file and confirmed that two Department values and one Status value were missing. This matched the Python results.
