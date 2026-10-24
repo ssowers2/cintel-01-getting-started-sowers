@@ -126,6 +126,7 @@ def main() -> None:
 
     # Log a custom message (change this to something meaningful for your project)
     LOG.info("Hello World from Sabriya Sowers!")
+    LOG.info("Data quality monitoring will be explored in future projects.")
 
     LOG.info("========================")
     LOG.info("Pipeline executed successfully!")
